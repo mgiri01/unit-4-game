@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+     Crystal Collector</title>
+  </head>
+  <body>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap File -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+
+<header>Crystal Collector Game</header>
+
+<div class="col-lg-12">
+
+    <!-- Crytal Buttons-->
+    <div id="sizeControls" class="card">
+      <h4 class="card-header">Click on Crystals to Guess Number</h4>
+      <div class="card-body">
+        <div class="text-center">
+          <button class="btn  btn-lg crystal1-button">
+         <img src="assets/images/crystal-1.jpg" /></button>
+          <button class="btn btn-lg crystal2-button">
+            <img src="assets/images/crystal-2.jpg" /></button>
+          <button class="btn btn-lg crystal3-button">
+            <img src="assets/images/crystal-3.jpg" /></button>
+           <button class="btn btn-lg crystal4-button">
+            <img src="assets/images/crystal-4.jpg" /></button>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Random Number -->
+<div id="Random Number" class="card">
+  <h4 class="card-header">Random Number</h4>
+  <div class="card-body">
+    <div class="text-left">
+   <p id="randNum"></p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Score -->
+<div id="Score" class="card">
+    <h4 class="card-header">Total Score</h4>
+    <div class="card-body">
+      <div class="text-left">
+     <p id="scoreCnt">0 </p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Wins -->
+          <div id="Wins" class="card">
+              <h4 class="card-header">Wins</h4>
+              <div class="card-body">
+                <div class="text-left">
+               <p id="winMsg">0 </p>
+                </div>
+              </div>
+            </div>
+
+
+<!-- Losses -->
+<div id="Losses" class="card">
+    <h4 class="card-header">Losses</h4>
+    <div class="card-body">
+      <div class="text-left">
+     <p id="lossMsg">0</p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Linking our JavaScript file -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>
